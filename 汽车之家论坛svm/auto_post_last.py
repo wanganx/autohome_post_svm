@@ -119,7 +119,7 @@ def get_post_content(url):
         return -1
     else:
         content = data_cleaning(text, post_content, encrypt_word)
-        post_title = str(post_title[0])
+        post_title = str(post_title)
         forum_name = forum_name[0]
         print(post_title + " 获取成功！")
     #     #返回    论坛名     文章名      文章内容  加密的字Unicode码
